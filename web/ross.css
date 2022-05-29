@@ -1,0 +1,150 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+.wrapper{
+	width: 1226px;
+	min-height: 1950px;
+	margin:auto auto;
+	float: left;
+	margin-right: 90px;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col1{
+	width: 100%;
+}
+.col2{	
+	width: 75%;
+	float: right;
+}
+.col3{
+	width: 50%;
+	float: right;
+}
+.col4{
+	width: 25%;
+	float: left;
+}
+.col5{
+	width: 25%;
+	float: right;
+}
+.logo{
+	width: 15%;
+	position: fixed;
+	padding-left: 10px;
+}
+.menu{
+	width: 100%;
+	position: fixed;
+	min-height:45px;
+	background-color: #ef9292;
+	float: right;
+	margin-right: 70px;
+	padding-top: 10px;
+}
+.menu ul{
+	list-style-type: none;
+
+}
+
+
+.menu ul li{
+	display: inline;
+}
+.menu .col5 ul li a{
+	text-decoration: none;
+	font-size: 23px;
+	padding: 10px 15px 20px 20px;
+	color: #800080;
+}
+.menu .col5 a:hover {
+	background-color: #f9f9d1;
+	padding: 10px 22px 20px 20px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-c {
+    display: none;
+    position: absolute;
+    margin-top: 19px;
+    background-color: #ef9292;
+    min-width: 150px;
+    box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-c a {
+    color: #800080;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-c a:hover {background-color:#f9f9d1;}
+
+.dropdown:hover .dropdown-c {display: block;}
+
+.banner{
+	/*margin-top: 36px;*/
+	width: 100%;
+}
+.pic{
+	width: 25%;
+	float: right;
+	margin-right: -120px;
+}
+.col3 p{
+	margin-top: 30px;
+	margin-right: 120px;
+}
+.col3 h1{
+	margin-top: 70px;
+}
+.bl{
+	position: absolute;
+	width: 25%;
+	padding-top: 240px;
+	margin-left: 390px;
+
+}
+.line{
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+}
+
+
+.line2{
+	float: right;
+	width: 100%;
+	margin-right: -123px;
+
+}
+.pic1{
+	width: 25%;
+	float: left;
+	position: absolute;
+	padding-left: 860px;}
+
+.footer{
+	width: 65.02%;
+	margin-top:94px;
+	padding-left:551px;
+	background-color: #ef9292;
+	min-height: 35px;
+}
+.footer p{
+	 padding-top: 4px;
+	 font-weight: bold;
+}
